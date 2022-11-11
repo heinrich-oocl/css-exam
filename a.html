@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>CSS Box Model</title>
+            <style>
+                #content {
+                    position: absolute;
+                    top: 10px;
+                    left: 15px;
+                }
+                main {
+                    height: 500px;
+                    border: 2px solid green;
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-wrap: wrap;
+                }
+                #rb{
+                    width: 500px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    border: 2px dashed purple;
+                }
+
+                .box{ /* Fill in the blank with answer1*/     
+                     width: 50; /* Fill in the blank with answer2*/
+                     padding: 30px;  /* Fill in the blank with answer3 the property of top/bottom/left/right are all same*/
+                     border: 1px solid red;    /* Fill in the blank with answer4 and answer5*/
+                     background-color: pink; 
+                     margin: 20px; /* Fill in the blank with answer6 the property of top/bottom/left/right are all same */
+                     font-size: 30px;
+                     color: blue;
+                     text-align: center;
+                    }
+            </style>
+        </head>
+        <body>
+            <main>
+                <div id ="content">
+                    <h1>The flex Property</h1>
+                    <p>Importance .....</p>
+                </div>
+                <div id="rb">
+                    <p class="box">
+                        Seat 1
+                    </p>
+                    <p class="box">
+                        Seat 2
+                    </p>
+                    <p class="box">
+                        Seat 3
+                    </p>
+                    <p class="box">
+                        Seat 4
+                    </p>
+                </div>
+            </main>
+        </body>
+</html>
